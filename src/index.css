@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.containerImg {
+  width : min(800px, 100%);
+  margin-inline: auto;
+  border: 1px solid #888888;
+  padding: 10px;
+  columns: 3 200px;
+  column-gap: 10px;
+}
+
+img {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+ul,ol {
+  list-style-type: none;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+
+}
+
+body{
+  font-size: 30px;
+  background-color: cadetblue;
+  color: rgb(115, 40, 100);
+}
